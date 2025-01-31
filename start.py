@@ -17,7 +17,7 @@ app.add_middleware(
 def home():
     email = "tomiwajegede29@gmail.com"
     current_time  = datetime.now()
-    github_url = "https://github.com/JEGZY01/stage-0"
+    github_url = "<https://github.com/JEGZY01/stage-0>"
     return{
         "email": email,
         "current_datetime": current_time,
