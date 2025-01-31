@@ -20,6 +20,6 @@ def home():
     github_url = "https://github.com/JEGZY01/stage-0"
     return{
         "email": email,
-        "current_time": current_time,
+        "current_datetime": current_time,
         "github_url": github_url
     }
